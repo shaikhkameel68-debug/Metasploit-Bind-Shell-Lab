@@ -45,6 +45,27 @@ The `screenshots/` folder contains the evidence captured during the practical.
 
 **This repository documents the Bind Shell practical only. Reverse Shell is not claimed as completed here.**
 
+## Screenshots
+
+### 1. Payload Files Directory
+![Payload Files Directory](screenshots/01-payload-directory-listing.png)
+
+### 2. Windows Security Warning
+![Windows Security Warning](screenshots/02-windows-download-warning.png)
+
+### 3. MSFVenom Bind Payload Generation
+![MSFVenom Bind Payload Generation](screenshots/03-msfvenom-bind-payload.png)
+
+### 4. Meterpreter Shell Verification
+![Meterpreter Shell Verification](screenshots/04-meterpreter-shell-verification.png)
+
+### 5. HTTP File Transfer
+![HTTP File Transfer](screenshots/05-http-file-transfer-server.png)
+
+### 6. Metasploit Bind TCP Session
+![Metasploit Bind TCP Session](screenshots/06-metasploit-bind-tcp-session.png)
+
+
 ## Repository Structure
 ```text
 Metasploit-Bind-Shell-Lab/
