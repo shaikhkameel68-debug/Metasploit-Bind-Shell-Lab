@@ -23,28 +23,6 @@ A hands-on cybersecurity lab demonstrating Bind TCP payload generation, file tra
 ## Screenshots
 The `screenshots/` folder contains the evidence captured during the practical.
 
-| Screenshot | Description |
-|---|---|
-| `01-payload-directory-listing.png` | HTTP directory listing showing available test files |
-| `02-windows-download-warning.png` | Windows warning for the unsigned test executable |
-| `03-msfvenom-bind-payload.png` | MSFVenom payload-generation output |
-| `04-meterpreter-shell-verification.png` | Meterpreter shell and directory listing verification |
-| `05-http-file-transfer-server.png` | Python HTTP server and request log |
-| `06-metasploit-bind-tcp-session.png` | Metasploit output showing the Bind TCP session opened |
-
-## Key Learning Outcomes
-- Understand the purpose of MSFVenom and Metasploit handlers.
-- Observe file transfer inside a controlled virtual lab.
-- Understand the difference between Bind Shell and Reverse Shell.
-- Verify and document a lab session.
-- Recognize why unsigned executables can trigger security warnings.
-
-## Bind Shell vs Reverse Shell
-- **Bind Shell:** The target listens on a port, and the operator connects to that listening service.
-- **Reverse Shell:** The target initiates an outbound connection to a listener controlled by the operator.
-
-**This repository documents the Bind Shell practical only. Reverse Shell is not claimed as completed here.**
-
 ## Screenshots
 
 ### 1. Payload Files Directory
@@ -65,6 +43,20 @@ The `screenshots/` folder contains the evidence captured during the practical.
 ### 6. Metasploit Bind TCP Session
 ![Metasploit Bind TCP Session](screenshots/06-metasploit-bind-tcp-session.png)
 
+
+
+## Key Learning Outcomes
+- Understand the purpose of MSFVenom and Metasploit handlers.
+- Observe file transfer inside a controlled virtual lab.
+- Understand the difference between Bind Shell and Reverse Shell.
+- Verify and document a lab session.
+- Recognize why unsigned executables can trigger security warnings.
+
+## Bind Shell vs Reverse Shell
+- **Bind Shell:** The target listens on a port, and the operator connects to that listening service.
+- **Reverse Shell:** The target initiates an outbound connection to a listener controlled by the operator.
+
+**This repository documents the Bind Shell practical only. Reverse Shell is not claimed as completed here.**
 
 ## Repository Structure
 ```text
